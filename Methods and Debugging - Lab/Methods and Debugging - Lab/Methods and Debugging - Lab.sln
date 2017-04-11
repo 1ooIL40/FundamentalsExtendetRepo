@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Math Power", "06. Math 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Greater of Two Values", "07. Greater of Two Values\07. Greater of Two Values.csproj", "{04C25B2B-5B38-43ED-AD84-941EF2C85CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Multiply Evens by Odds", "08. Multiply Evens by Odds\08. Multiply Evens by Odds.csproj", "{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{04C25B2B-5B38-43ED-AD84-941EF2C85CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C25B2B-5B38-43ED-AD84-941EF2C85CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C25B2B-5B38-43ED-AD84-941EF2C85CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
