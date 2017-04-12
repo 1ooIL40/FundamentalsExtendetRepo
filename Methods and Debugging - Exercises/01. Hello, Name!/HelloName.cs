@@ -1,5 +1,4 @@
-﻿
-namespace Methods_and_Debugging___Exercises
+﻿namespace Methods_and_Debugging___Exercises
 {
     using System;
 

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2B3A20B3-9215-4C38-B3EF-B42E3C344AA9}</ProjectGuid>
+    <ProjectGuid>{4E5D42EF-C823-47DE-ACC3-F150E2128816}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Methods_and_Debugging___Exercises</RootNamespace>
-    <AssemblyName>Methods and Debugging - Exercises</AssemblyName>
+    <RootNamespace>_01.Hello__Name_</RootNamespace>
+    <AssemblyName>_01.Hello__Name_</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

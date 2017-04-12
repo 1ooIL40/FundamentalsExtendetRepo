@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Methods and Debugging - Exercises")]
+[assembly: AssemblyTitle("02. Max Method")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Methods and Debugging - Exercises")]
+[assembly: AssemblyProduct("02. Max Method")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2b3a20b3-9215-4c38-b3ef-b42e3c344aa9")]
+[assembly: Guid("58669574-3c38-43ce-8dc5-eb38887136a2")]
 
 // Version information for an assembly consists of the following four values:
 //
