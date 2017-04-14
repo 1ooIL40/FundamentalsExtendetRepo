@@ -6,24 +6,23 @@
     {
         public static void Main()
         {
-            var number = long.Parse(Console.ReadLine());
+            var number = int.Parse(Console.ReadLine());
             var toBase = int.Parse(Console.ReadLine());
 
             var result = IntToBase(number, toBase);
             Console.WriteLine(result);
         }
 
-        static string IntToBase(long number, int toBase)
+        static string IntToBase(int number, int toBase)
         {
             var output = string.Empty;
-            var remainder = 0;
 
-            remainder = (int)number % toBase;
-            if (number > 0)
+            while (number > 0)
             {
-                output += number = number / toBase;
+                var remainder = number % toBase;
+                output = remainder + output;
+                number /=  toBase;
             }
-            output += remainder;
 
             return output;
 
