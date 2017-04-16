@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{46AEA565-DB39-4D2C-84E3-DF65A69141D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Multiply Evens by Odds", "01. Multiply Evens by Odds\01. Multiply Evens by Odds.csproj", "{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Holidays Between Two Dates", "02. Holidays Between Two Dates\02. Holidays Between Two Dates.csproj", "{3EB368A2-FD8F-487A-B349-9DCCB2430127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Price Change Alert", "03. Price Change Alert\03. Price Change Alert.csproj", "{6D77368D-1327-423D-B411-159450751437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46AEA565-DB39-4D2C-84E3-DF65A69141D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AEA565-DB39-4D2C-84E3-DF65A69141D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AEA565-DB39-4D2C-84E3-DF65A69141D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AEA565-DB39-4D2C-84E3-DF65A69141D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2758DBDC-CC30-4DB3-A6D5-A660FD0B7692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB368A2-FD8F-487A-B349-9DCCB2430127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB368A2-FD8F-487A-B349-9DCCB2430127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB368A2-FD8F-487A-B349-9DCCB2430127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB368A2-FD8F-487A-B349-9DCCB2430127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D77368D-1327-423D-B411-159450751437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D77368D-1327-423D-B411-159450751437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D77368D-1327-423D-B411-159450751437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D77368D-1327-423D-B411-159450751437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
