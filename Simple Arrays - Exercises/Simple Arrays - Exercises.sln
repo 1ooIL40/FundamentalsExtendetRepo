@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Largest Element in Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Count of Negative Elements in Array", "02. Count of Negative Elements in Array\02. Count of Negative Elements in Array.csproj", "{5B82FAE6-0E03-4BD7-92CE-755C28CD6C17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Count of Given Element in Array", "03. Count of Given Element in Array\03. Count of Given Element in Array.csproj", "{70F24ACE-8812-4CEB-B3E5-E414B46E8161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B82FAE6-0E03-4BD7-92CE-755C28CD6C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B82FAE6-0E03-4BD7-92CE-755C28CD6C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B82FAE6-0E03-4BD7-92CE-755C28CD6C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F24ACE-8812-4CEB-B3E5-E414B46E8161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F24ACE-8812-4CEB-B3E5-E414B46E8161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F24ACE-8812-4CEB-B3E5-E414B46E8161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F24ACE-8812-4CEB-B3E5-E414B46E8161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
