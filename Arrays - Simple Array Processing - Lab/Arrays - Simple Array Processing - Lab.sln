@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Rotate Array of Strings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count of Odd Numbers in Array", "05. Count of Odd Numbers in Array\05. Count of Odd Numbers in Array.csproj", "{66EC5A17-23F3-47F9-AAB1-5D5E110E8D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Odd Numbers at Odd Positions", "06. Odd Numbers at Odd Positions\06. Odd Numbers at Odd Positions.csproj", "{9EA2FC66-F01C-491F-95CB-E1017C1EB26C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{66EC5A17-23F3-47F9-AAB1-5D5E110E8D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66EC5A17-23F3-47F9-AAB1-5D5E110E8D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66EC5A17-23F3-47F9-AAB1-5D5E110E8D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA2FC66-F01C-491F-95CB-E1017C1EB26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA2FC66-F01C-491F-95CB-E1017C1EB26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA2FC66-F01C-491F-95CB-E1017C1EB26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA2FC66-F01C-491F-95CB-E1017C1EB26C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
