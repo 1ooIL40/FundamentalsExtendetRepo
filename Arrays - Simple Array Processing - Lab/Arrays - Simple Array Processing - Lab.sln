@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Array Elements", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Multiply an Array of Doubles", "02. Multiply an Array of Doubles\02. Multiply an Array of Doubles.csproj", "{E1D67B7A-B82B-40F1-93D7-2FFC65590B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Smallest Element in Array", "03. Smallest Element in Array\03. Smallest Element in Array.csproj", "{A1C7E9D6-55D2-4070-A7DF-B820702563B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E1D67B7A-B82B-40F1-93D7-2FFC65590B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D67B7A-B82B-40F1-93D7-2FFC65590B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D67B7A-B82B-40F1-93D7-2FFC65590B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C7E9D6-55D2-4070-A7DF-B820702563B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C7E9D6-55D2-4070-A7DF-B820702563B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C7E9D6-55D2-4070-A7DF-B820702563B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C7E9D6-55D2-4070-A7DF-B820702563B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
