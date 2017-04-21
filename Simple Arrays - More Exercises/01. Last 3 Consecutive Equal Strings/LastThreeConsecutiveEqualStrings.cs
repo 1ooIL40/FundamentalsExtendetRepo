@@ -22,7 +22,7 @@ namespace _01.Last_3_Consecutive_Equal_Strings
             var len = words.Length;
             var count = 1;
 
-            for (int i = len - 1; i >= 0; i--)
+            for (int i = len - 1; i > 0; i--)
             {
                 var word = words[i];
                 var compare = words[i-1];
@@ -40,6 +40,10 @@ namespace _01.Last_3_Consecutive_Equal_Strings
                         Console.WriteLine();
                         break;
                     }
+                }
+                else
+                {
+                    count = 1;
                 }
             }
         }
