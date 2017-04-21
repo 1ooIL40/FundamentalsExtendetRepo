@@ -8,26 +8,23 @@ namespace _10.Ballistics_Training
     {
         public static void Main()
         {
-            var text = "150 33";//"25 -3";
-            var cords = "right 108 down 4 left -11 up 3 right 30 up 33 right 2";//"right 18 down 6 left -7 up 3";
-            var targetCoordinates = text //Console.ReadLine()
+
+            var targetCoordinates = Console.ReadLine()
                 .Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)
                 .Select(double.Parse)
                 .ToArray();
-            var positionCoordinates = cords //Console.ReadLine()
+            var positionCoordinates = Console.ReadLine()
                 .Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
 
             FireAtCoordinates(positionCoordinates, targetCoordinates);
 
-            Console.WriteLine(targetCoordinates[0]);
-            Console.WriteLine(targetCoordinates[1]);
-
         }
 
-        static void FireAtCoordinates(string[] positionCoordinates, double[] targetCoordinates)
+        static void FireAtCoordinates(string[] positionCoordinates, 
+            double[] targetCoordinates)
         {
             var coordsLen = positionCoordinates.Length;
 
