@@ -117,7 +117,7 @@ namespace _04.Phone
             if(sum % 2 == 0)
             {
                 TimeSpan t = TimeSpan.FromSeconds(sum);
-                var result = string.Format($"call ended. duration: {t.Minutes:D2}:{t.Seconds}");
+                var result = string.Format($"call ended. duration: {t.Minutes:D2}:{t.Seconds:D2}");
                 Console.WriteLine(result);
             }
             else if (sum % 2 != 0)
