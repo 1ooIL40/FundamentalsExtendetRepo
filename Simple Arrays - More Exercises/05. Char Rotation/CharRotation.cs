@@ -8,11 +8,11 @@ namespace _05.Char_Rotation
     {
         public static void Main()
         {
-            var text =  "tszL"; //"$wM+J_H";
-            var textNumbers = "18 10 8 21";//"47 8 25 73 11 15 33";// 
-            var stringArray = text//Console.ReadLine()
+            //var text =  "tszL"; //"$wM+J_H";
+            //var textNumbers = "18 10 8 21";//"47 8 25 73 11 15 33";// 
+            var stringArray = Console.ReadLine()
                  .ToCharArray();
-            var numbers = textNumbers//Console.ReadLine()
+            var numbers = Console.ReadLine()
                 .Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
