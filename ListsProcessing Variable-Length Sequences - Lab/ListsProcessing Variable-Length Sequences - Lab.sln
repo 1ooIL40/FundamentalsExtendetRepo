@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Remove Negatives and Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Append Lists", "02. Append Lists\02. Append Lists.csproj", "{0E052C2D-AF9C-49A0-9F03-9841A15A2281}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sum Adjacent Equal Numbers", "03. SumAdjacentEqualNumbers\03. Sum Adjacent Equal Numbers.csproj", "{950A7525-6EA8-486E-91CD-22FF23C9104E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0E052C2D-AF9C-49A0-9F03-9841A15A2281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E052C2D-AF9C-49A0-9F03-9841A15A2281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E052C2D-AF9C-49A0-9F03-9841A15A2281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950A7525-6EA8-486E-91CD-22FF23C9104E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950A7525-6EA8-486E-91CD-22FF23C9104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950A7525-6EA8-486E-91CD-22FF23C9104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950A7525-6EA8-486E-91CD-22FF23C9104E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
