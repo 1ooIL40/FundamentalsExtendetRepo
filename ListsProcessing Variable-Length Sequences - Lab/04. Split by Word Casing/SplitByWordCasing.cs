@@ -8,9 +8,9 @@
     {
         public static void Main()
         {
-            var text = "Learn programing at SoftUni: Java, PHP, JS, HTML 5, CSS, Web, C#, SQL, databases, AJAX, etc.";
-            var input = text//Console.ReadLine()
-                .Split(new char[] { ',', ' ','.',':','!','(', ')','"','\'', '\\', '/', '[',']', },
+            //var text = "Learn programing at SoftUni: Java, PHP, JS, HTML 5, CSS, Web, C#, SQL, databases, AJAX, etc.";
+            var input = Console.ReadLine()
+                .Split(new char[] { ',',';',' ','.',':','!','(', ')','"','\'','\\','/','[',']'},
                 StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
 
