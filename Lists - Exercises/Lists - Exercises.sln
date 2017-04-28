@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Track Downloader", "02.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Equal Sum After Extraction", "03. Equal Sum After Extraction\03. Equal Sum After Extraction.csproj", "{F05F836E-B5D1-4FA2-B61B-5550677AC070}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Flip List Sides", "04. Flip List Sides\04. Flip List Sides.csproj", "{17273926-9B4A-41FA-9607-6B05F0BFE166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F05F836E-B5D1-4FA2-B61B-5550677AC070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F05F836E-B5D1-4FA2-B61B-5550677AC070}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F05F836E-B5D1-4FA2-B61B-5550677AC070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17273926-9B4A-41FA-9607-6B05F0BFE166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17273926-9B4A-41FA-9607-6B05F0BFE166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17273926-9B4A-41FA-9607-6B05F0BFE166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17273926-9B4A-41FA-9607-6B05F0BFE166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
