@@ -8,8 +8,8 @@
     {
         public static void Main()
         {
-            var textOne = "2 12 4 3 9";
-            var textTwo = "22 1 3 88 7";
+            //var textOne = "2 12 4 3 9";
+            //var textTwo = "22 1 3 88 7";
 
             var inputListOne = Console.ReadLine()
                 .Split(new char[] { ' ' },
@@ -22,11 +22,11 @@
                 StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
+
             var smallestDigit = LenghtToCompare(inputListOne, inputListTwo);
 
             var result = ListCompareAndZip(inputListOne, inputListTwo, smallestDigit);
 
-            Console.WriteLine(smallestDigit);
             Console.WriteLine(string.Join(" ",result));
         }
 
@@ -36,6 +36,7 @@
             var secondList = new List<int>();
             var resultList = new List<int>();
 
+            //add the numbers with smallest lenght to new list
             foreach (var number in inputListOne)
             {
                 var stringNumber = Math.Abs(number).ToString();
@@ -46,6 +47,7 @@
                 }
             }
 
+            //add the numbers with smallest lenght to new list
             foreach (var number in inputListTwo)
             {
                 var stringNumber = Math.Abs(number).ToString();
@@ -58,6 +60,7 @@
 
             var len = firstList.Count + secondList.Count;
 
+            //create the result output list
             for (int i = 0; i < len; i++)
             {
                 var firstListNumber = 0;
@@ -83,6 +86,7 @@
         {
             var digit = int.MaxValue;
 
+            //Get the smallest lenght on a digits from the two lists
             foreach (var number in inputListOne)
             {
                 var stringNumber = Math.Abs(number).ToString();
