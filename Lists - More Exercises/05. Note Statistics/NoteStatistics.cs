@@ -8,9 +8,9 @@
     {
         public static void Main()
         {
-            var inputNumbers = "293,66 311,13 293,66 311,13 349,23 349,23";
+            //var inputNumbers = "293,66 311,13 293,66 311,13 349,23 349,23";
 
-            var realNumbersInput = inputNumbers//Console.ReadLine()
+            var realNumbersInput = Console.ReadLine()
                 .Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries)
                 .Select(double.Parse)
