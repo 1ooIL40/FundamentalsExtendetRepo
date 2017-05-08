@@ -62,7 +62,7 @@
             {
                 var currentPercentage = (wordCount[i] * 100.0) / words.Length;
 
-                Console.WriteLine("{0} -> {1} times ({2:F2} %)", foundWords[i], wordCount[i],currentPercentage);
+                Console.WriteLine("{0} -> {1} times ({2:F2}%)", foundWords[i], wordCount[i],currentPercentage);
             }
         }
     }
