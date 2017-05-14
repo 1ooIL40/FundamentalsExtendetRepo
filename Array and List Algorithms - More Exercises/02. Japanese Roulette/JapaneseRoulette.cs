@@ -66,11 +66,11 @@
 
             if (dead)
             {
-                Console.WriteLine($"Game Over! Player {deadPlayer} is dead.");
+                Console.WriteLine($"Game over! Player {deadPlayer} is dead.");
             }
             else if (!dead)
             {
-                Console.WriteLine("Evrybody got lucky!");
+                Console.WriteLine("Everybody got lucky!");
             }
             
         }
