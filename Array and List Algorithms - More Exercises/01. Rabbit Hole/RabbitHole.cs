@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class Program
+    public class RabbitHole
     {
         public static void Main()
         {
@@ -29,6 +29,7 @@
                     Console.WriteLine("You have 5 years to save Kennedy!");
                     break;
                 }
+
                 var value = int.Parse(commandParams[1]);
 
                 switch (currentCommand)
@@ -49,7 +50,7 @@
                         break;
                 }
 
-                if (commands[commands.Count-1] != "RabbitHole")
+                if (commands[commands.Count - 1] != "RabbitHole")
                 {
                     commands.RemoveAt(commands.Count - 1);
                 }
