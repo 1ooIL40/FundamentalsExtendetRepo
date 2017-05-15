@@ -8,6 +8,7 @@ namespace Increasing_Crisis
     {
         static void Main()
         {
+            // 100/100 judge
             var n = int.Parse(Console.ReadLine());
             List<int> numbers = new List<int>();
 

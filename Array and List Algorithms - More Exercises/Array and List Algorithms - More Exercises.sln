@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Increasing Crisis", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Increasing Crisis", "Increasing Crisis\Increasing Crisis.csproj", "{BEA3E8C2-B3CA-4F5C-B911-D8A9808EC648}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Extremums", "04. Extremums\04. Extremums.csproj", "{E2A72B48-2409-4B2E-9994-52AEF6651679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extremums", "Extremums\Extremums.csproj", "{02E81DF2-3DE1-48C8-B8BC-64AC5030BC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BEA3E8C2-B3CA-4F5C-B911-D8A9808EC648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA3E8C2-B3CA-4F5C-B911-D8A9808EC648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA3E8C2-B3CA-4F5C-B911-D8A9808EC648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A72B48-2409-4B2E-9994-52AEF6651679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A72B48-2409-4B2E-9994-52AEF6651679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A72B48-2409-4B2E-9994-52AEF6651679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A72B48-2409-4B2E-9994-52AEF6651679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E81DF2-3DE1-48C8-B8BC-64AC5030BC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E81DF2-3DE1-48C8-B8BC-64AC5030BC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E81DF2-3DE1-48C8-B8BC-64AC5030BC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E81DF2-3DE1-48C8-B8BC-64AC5030BC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,6 +8,7 @@
     {
         public static void Main()
         {
+            // 80/100 judge
             var numberOfLines = int.Parse(Console.ReadLine());
 
             var input = Console.ReadLine();
@@ -15,6 +16,8 @@
                 StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
+                
+
             
 
             while (numberOfLines > 1)
@@ -61,6 +64,7 @@
                 numberOfLines--;
             }
 
+            
             Console.WriteLine(string.Join(" ", line));
         }
 
