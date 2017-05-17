@@ -29,7 +29,7 @@
             {
                 //var timeString = kvp.Value == 1 ? "time" : "times";
 
-                Console.WriteLine($"{kvp.Key} -> {kvp.Value} times");
+                Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
             } 
 
         }
