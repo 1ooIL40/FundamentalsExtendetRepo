@@ -29,8 +29,15 @@
                 {
                     result[firstElement] = number;
                 }
-                
+                else
+                {
+                    if (result.ContainsKey(lastElement))
+                    {
+                        var referencedValue = result[lastElement];
+                        result[firstElement] = referencedValue;
 
+                    }
+                }
                 input = Console.ReadLine();
             }
 
