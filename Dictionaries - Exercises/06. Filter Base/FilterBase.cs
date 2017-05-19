@@ -78,7 +78,7 @@
                 var valueOutput = kvp.Value;
 
                 Console.WriteLine($"Name: {name}");
-                Console.WriteLine($"Position: {valueOutput}");
+                Console.WriteLine($"Salary: {valueOutput:f2}");
                 Console.WriteLine(new String('=', 20));
             }
         }
@@ -91,7 +91,7 @@
                 var valueOutput = kvp.Value;
 
                 Console.WriteLine($"Name: {name}");
-                Console.WriteLine($"Position: {valueOutput}");
+                Console.WriteLine($"Age: {valueOutput}");
                 Console.WriteLine(new String('=', 20));
             }
         }
