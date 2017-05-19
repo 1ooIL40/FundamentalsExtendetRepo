@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Mixed Phones", "03. Mix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Exam Shopping", "04. Exam Shopping\04. Exam Shopping.csproj", "{AB0E2DFA-8C2C-4C4D-809D-37C89960114E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. User Logins", "05. User Logins\05. User Logins.csproj", "{1BF89301-10BC-40A4-A6A9-82278E519C7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AB0E2DFA-8C2C-4C4D-809D-37C89960114E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0E2DFA-8C2C-4C4D-809D-37C89960114E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0E2DFA-8C2C-4C4D-809D-37C89960114E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF89301-10BC-40A4-A6A9-82278E519C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF89301-10BC-40A4-A6A9-82278E519C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF89301-10BC-40A4-A6A9-82278E519C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF89301-10BC-40A4-A6A9-82278E519C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
