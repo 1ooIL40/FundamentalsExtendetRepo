@@ -71,7 +71,7 @@
 
 
 
-            // country_code -> town -> popilation
+            // country_code -> town -> population
 
             //var population = new Dictionary<string, Dictionary<string, int>>();
 
