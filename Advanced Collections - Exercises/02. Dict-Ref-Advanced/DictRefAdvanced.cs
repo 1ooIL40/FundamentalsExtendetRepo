@@ -40,7 +40,7 @@
 
                     if (dictRef.ContainsKey(secondName))
                     {
-                        dictRef[name] = dictRef[secondName];
+                        dictRef[name] = new List<int>(dictRef[secondName]);
                     }
                     
                 }
