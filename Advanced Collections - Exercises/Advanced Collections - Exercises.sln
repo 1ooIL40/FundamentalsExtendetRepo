@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Shellbound", "01. Shell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Dict-Ref-Advanced", "02. Dict-Ref-Advanced\02. Dict-Ref-Advanced.csproj", "{944C871C-2ACD-4E69-955F-2749B00F8AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Forum Topics", "03. Forum Topics\03. Forum Topics.csproj", "{5C3F43A8-5F62-4F24-A752-E0B6EFB0F62C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{944C871C-2ACD-4E69-955F-2749B00F8AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{944C871C-2ACD-4E69-955F-2749B00F8AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944C871C-2ACD-4E69-955F-2749B00F8AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3F43A8-5F62-4F24-A752-E0B6EFB0F62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3F43A8-5F62-4F24-A752-E0B6EFB0F62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3F43A8-5F62-4F24-A752-E0B6EFB0F62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3F43A8-5F62-4F24-A752-E0B6EFB0F62C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
