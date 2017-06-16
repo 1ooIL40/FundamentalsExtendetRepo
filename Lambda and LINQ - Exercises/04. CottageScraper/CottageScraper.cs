@@ -47,7 +47,7 @@
 
             //find price per meter
 
-            var pricePerMeter = 0m;
+            var pricePerMeter = 0d;
 
             foreach (var wood in woodType)
             {
@@ -79,7 +79,7 @@
 
             // find the price of unsedlogs
 
-            var priceForUnUsuedLogs = Math.Round((allUnusedLogs * pricePerMeter * 0.25m),2);
+            var priceForUnUsuedLogs = Math.Round((allUnusedLogs * pricePerMeter * 0.25),2);
 
 
             //find the subtotal price
