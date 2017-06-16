@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Register Users", "01. Register Users\01. Register Users.csproj", "{BD1BE7E2-DA79-43FA-BC04-110E24F37ADD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Default Values", "02. Default Values\02. Default Values.csproj", "{67F0F584-52B9-41F3-8EA6-E5B4BDD6BE76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Flatten Dictionary", "03. Flatten Dictionary\03. Flatten Dictionary.csproj", "{C1331E07-2369-4B2F-A77E-E41D012B064D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. CottageScraper", "04. CottageScraper\04. CottageScraper.csproj", "{594357CB-C465-4BC8-B701-0338F7552AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C1331E07-2369-4B2F-A77E-E41D012B064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1331E07-2369-4B2F-A77E-E41D012B064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1331E07-2369-4B2F-A77E-E41D012B064D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594357CB-C465-4BC8-B701-0338F7552AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594357CB-C465-4BC8-B701-0338F7552AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594357CB-C465-4BC8-B701-0338F7552AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594357CB-C465-4BC8-B701-0338F7552AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
