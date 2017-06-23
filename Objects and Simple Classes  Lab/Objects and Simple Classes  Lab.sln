@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "01. Day 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Randomize Words", "02. Randomize Words\02. Randomize Words.csproj", "{4BC499D8-1B69-485E-8110-7B96D25D20DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Big Factorial", "03. Big Factorial\03. Big Factorial.csproj", "{E1F9763B-85DE-45CB-922D-848FD8F24B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4BC499D8-1B69-485E-8110-7B96D25D20DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC499D8-1B69-485E-8110-7B96D25D20DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC499D8-1B69-485E-8110-7B96D25D20DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F9763B-85DE-45CB-922D-848FD8F24B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F9763B-85DE-45CB-922D-848FD8F24B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F9763B-85DE-45CB-922D-848FD8F24B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F9763B-85DE-45CB-922D-848FD8F24B93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
