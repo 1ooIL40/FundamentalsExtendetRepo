@@ -22,6 +22,8 @@
                     var first = arrayOfStrings[sort];
                     var second = arrayOfStrings[sort + 1];
 
+                    var index = first.CompareTo(second);
+
                     if (first.CompareTo(second) > 0)
                     {
                         arrayOfStrings[sort] = second;
