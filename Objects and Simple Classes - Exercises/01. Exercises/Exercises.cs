@@ -52,7 +52,7 @@
             {
                 Console.WriteLine($"Exercises: {exercise.Topic}");
                 Console.WriteLine($"Problems for exercises and homework for the \"{exercise.CourseName}\" course @ SoftUni.");
-                Console.WriteLine($"Check your solutions here: {exercise.JudgeContestLink}.");
+                Console.WriteLine($"Check your solutions here: {exercise.JudgeContestLink}");
 
                 int count = 1;
 
