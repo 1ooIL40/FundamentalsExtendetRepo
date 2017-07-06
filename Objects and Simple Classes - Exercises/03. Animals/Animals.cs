@@ -69,7 +69,7 @@
                     int age = int.Parse(userInput[2]);
                     int lastParameter = int.Parse(userInput[3]);
                     
-                    //Add the params to the classes
+                 //Add the params to the classes
                 #region Add the Paramiters to the classes                  
                     switch (clas)
                     {
@@ -136,6 +136,8 @@
             }
         }
 
+        //Chek if the name exist and do ProduceSound();
+        #region Chek if the name exist in our list and print the produce sound
         static void CheckForTheNameInLists(List<Dog> dogs, List<Cat> cats, List<Snake> snakes, string name)
         {
             foreach (var dog in dogs)
@@ -165,5 +167,6 @@
                 }
             }
         }
+        #endregion
     }
 }
