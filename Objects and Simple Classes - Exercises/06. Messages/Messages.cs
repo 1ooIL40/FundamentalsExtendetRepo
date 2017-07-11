@@ -23,7 +23,7 @@
         public static void Main()
         {
 
-          // 60/100 judge
+            // 60/100 judge
 
             List<User> registeredUsers = new List<User>();
             List<Message> registeretdMeseges = new List<Message>();
@@ -36,7 +36,7 @@
             while (input[0] != "exit")
             {
                 #region Register the usersrs and take the messeges
-                if(input[0] == "register")
+                if (input[0] == "register")
                 {
                     User newUser = new User()
                     {
@@ -45,7 +45,7 @@
                     };
                     registeredUsers.Add(newUser);
                 }
-                else 
+                else
                 {
                     //Chek did we have the recipient for the messeges
                     for (int i = 0; i < registeredUsers.Count; i++)
@@ -62,7 +62,7 @@
                         }
                     }
                 }
-#endregion
+                #endregion
 
                 input = Console.ReadLine()
                 .Split(new char[] { ' ' },
@@ -80,7 +80,7 @@
                     }
                 }
             }
-#endregion
+            #endregion
 
             input = Console.ReadLine()
                .Split(new char[] { ' ' },
@@ -89,100 +89,104 @@
             string firstUserName = input[0];
             string secondUserName = input[1];
 
-            List<string> names = new List<string>();
+            //List<string> names = new List<string>();
 
-            bool areUsersRegistered = false;
+            //bool areUsersRegistered = false;
 
-            #region Get the registeret name and find if we have machest with the input
-            //Get all names that we have in list
-            foreach (var user in registeredUsers)
+            //#region Get the registeret name and find if we have machest with the input
+            ////Get all names that we have in list
+            //foreach (var user in registeredUsers)
+            //{
+            //    names.Add(user.Name);
+            //}
+
+            ////if (input.Length >= 1)
+            ////{
+            //    //Chek if we have the name to start the chat
+            //    if (names.Contains(firstUserName) && names.Contains(secondUserName))
+            //    {
+            //        areUsersRegistered = true;
+            //    }
+            //}
+
+            //#endregion
+
+
+
+            //if (areUsersRegistered)
+            //{
+
+            //    //Find if there are messeges between the both of them
+            //    bool haveMeseges = false;
+
+            //    if (registeredUsers.Find(u => u.Name == firstUserName)
+            //        .ReceivedMessages.Count() > 0 &&
+            //        registeredUsers.Find(u => u.Name == secondUserName)
+            //        .ReceivedMessages.Count() > 0)
+            //    {
+            //        haveMeseges = true;
+            //    }
+
+            //if (haveMeseges)
+            //{
+
+
+            List<Message> nameOneChat = registeredUsers
+                .Find(u => u.Name == firstUserName)
+                .ReceivedMessages
+                .Where(m => m.Sender == firstUserName)
+                .ToList();
+            List<Message> nameTwoChat = registeredUsers
+                .Find(u => u.Name == secondUserName)
+                .ReceivedMessages
+                .Where(m => m.Sender == secondUserName)
+                .ToList();
+
+            if (nameOneChat.Count == 0 && nameTwoChat.Count == 0)
             {
-                names.Add(user.Name);
+                Console.WriteLine("No messages"); return;
             }
 
-            if (input.Length >= 1)
+
+            ////Get the chat in separeted lists
+            //foreach (var person in registeredUsers)
+            //{
+            //    if(person.Name == firstUserName)
+            //    {
+            //        nameOneChat = person.ReceivedMessages;
+            //    }
+
+            //    if(person.Name == secondUserName)
+            //    {
+            //        nameTwoChat = person.ReceivedMessages;
+            //    }
+            //}
+
+            ////Get the max lenght and print all messeges in order
+            int lenghtOfTheChat = Math.Max(nameOneChat.Count, nameTwoChat.Count);
+
+            for (int i = 0; i < lenghtOfTheChat; i++)
             {
-                //Chek if we have the name to start the chat
-                if (names.Contains(firstUserName) && names.Contains(secondUserName))
+                if (i < nameOneChat.Count)
                 {
-                    areUsersRegistered = true;
+                    Console.WriteLine($"{firstUserName}: {nameOneChat[i].Content}");
+                }
+                if (i < nameTwoChat.Count)
+                {
+                    Console.WriteLine($"{nameTwoChat[i].Content} :{secondUserName}");
                 }
             }
 
-            #endregion
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No messages");
+            //}
 
-
-
-            if (areUsersRegistered)
-            {
-
-                //Find if there are messeges between the both of them
-                bool haveMeseges = false;
-
-                if (registeredUsers.Find(u => u.Name == firstUserName)
-                    .ReceivedMessages.Count() > 0 &&
-                    registeredUsers.Find(u => u.Name == secondUserName)
-                    .ReceivedMessages.Count() > 0)
-                {
-                    haveMeseges = true;
-                }
-
-                if (haveMeseges)
-                {
-
-
-                    List<Message> nameOneChat = registeredUsers
-                        .Find(u => u.Name == firstUserName)
-                        .ReceivedMessages
-                        .Where(m => m.Sender == firstUserName)
-                        .ToList();
-                    List<Message> nameTwoChat = registeredUsers
-                        .Find(u => u.Name == secondUserName)
-                        .ReceivedMessages
-                        .Where(m => m.Sender == secondUserName)
-                        .ToList();
-
-                    
-                    ////Get the chat in separeted lists
-                    //foreach (var person in registeredUsers)
-                    //{
-                    //    if(person.Name == firstUserName)
-                    //    {
-                    //        nameOneChat = person.ReceivedMessages;
-                    //    }
-
-                    //    if(person.Name == secondUserName)
-                    //    {
-                    //        nameTwoChat = person.ReceivedMessages;
-                    //    }
-                    //}
-
-                    ////Get the max lenght and print all messeges in order
-                    int lenghtOfTheChat = Math.Max(nameOneChat.Count, nameTwoChat.Count);
-
-                    for (int i = 0; i < lenghtOfTheChat; i++)
-                    {
-                        if (i < nameOneChat.Count)
-                        {
-                            Console.WriteLine($"{firstUserName}: {nameOneChat[i].Content}");
-                        }
-                        if (i < nameTwoChat.Count)
-                        {
-                            Console.WriteLine($"{nameTwoChat[i].Content} :{secondUserName}");
-                        }
-                    }
-
-                }
-                else
-                {
-                    Console.WriteLine("No messages");
-                }
-               
-            }
-            else
-            {
-                return;
-            }
         }
+        //else
+        //{
+        //    return;
+        //}
     }
 }
