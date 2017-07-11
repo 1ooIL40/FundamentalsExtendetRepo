@@ -23,7 +23,7 @@
         public static void Main()
         {
 
-            // 60/100 judge
+            // 80/100 judge with help
 
             List<User> registeredUsers = new List<User>();
             List<Message> registeretdMeseges = new List<Message>();
